@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/customized.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/Unsemantic-grid-responsive.css" />
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/59db27d8b6.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <title>Buffalo</title>
+    <link rel="icon" type="image/png" href="css/images/jd.png">
+</head>
+<!-- Header  -->
+<header>
+    <div id="top-header-container">
+        <div id="top-header" class="grid-container">
+            <div id="top-header-left">
+                <div class="header-phone hide-on-desktop hide-on-tablet">
+                    <a href="tel:+1-888-888-8888">888-888-8888</a>
+                </div>
+            </div>
+            <div id="top-header-middle">
+                <div class="top-header-list">
+                    <ul>
+                        <li><a href="/about-us.inc">About Us</a></li>
+                        <li><a href="/brands.inc">Brands</a></li>
+                        <li><a href="/contact-us.inc">Contact Us</a></li>
+                        <li><a href="/design-center.inc">Design Center</a></li>
+                        <li><a href="/join-email.inc">Join Email</a></li>
+                        <li><a href="/room-planner.inc">Room Planner</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="top-header-right">
+                <div id="top-mobile-nav" class="hide-on-desktop hide-on-tablet">
+                    <div id="top-nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header-container" class="grid-container">
+        <div id="header-left">
+            <div class="logo">
+                <a href="/">BUFFALO</a>
+            </div>
+            <div id="mobile-nav" class="hide-on-desktop hide-on-tablet">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div id="header-middle">
+            <div class="header-search">
+                <label class="hidden" for="SearchValue">Search</label>
+                <input type="text" id="SearchValue" name="SearchValue" onkeypress="submitsearch(event);" value="">
+                <span class="fa fa-search fa-lg" onclick="goSearch();"></span>
+            </div>
+            <div id="account-nav">
+                <div id="loggedinas" style="display: none; visibility: hidden"></div>
+                <ul>
+                    <li><a href="/contact-us.inc"><span class="hide-on-tablet hide-on-mobile">Location</span><span class="hide-on-desktop"><i class="material-icons">location_on</i></span></a></li>
+                    <li><a href="/viewcart.aspx"><span class="hide-on-tablet hide-on-mobile">Cart</span><span class="hide-on-desktop"><i class="material-icons">shopping_cart</i></span> (<viewcartquantitysummary></viewcartquantitysummary>)</a></li>
+                    <li><a style="border: 0" href="javascript:void(0)"><span class="hide-on-tablet hide-on-mobile">My Account</span><span class="hide-on-desktop"><i class="material-icons">person</i></span></a>
+                        <ul>
+                            <li id="login"><a href="/login.aspx" rel="nofollow">Login</a></li>
+                            <li id="viewAccountLink" style="display: none;"><a href="/modifyaccount.aspx" rel="nofollow">View Account</a></li>
+                            <li id="logoutLink" style="display: none;"><a href="/homepage.aspx?logout=true" rel="nofollow">Logout</a></li>
+                            <li id="registerlink"><a href="/createaccount.aspx" rel="nofollow">Register</a></li>
+                            <li><a href="/favorites.aspx" rel="nofollow">Favorites</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="line">
+                <hr />
+            </div>
+            <div class="header-list">
+                <ul>
+                    <li><a href="/living-room.inc">Living</a></li>
+                    <li><a href="/dining-room.inc">Dining</a></li>
+                    <li><a href="/bedroom.inc">Bedroom</a></li>
+                    <li><a href="/mattresses/">Mattresses</a></li>
+                    <li><a href="/entertainment.inc">Media</a></li>
+                    <li><a href="/home-office.inc">Office</a></li>
+                    <li><a href="/accessories.inc">Accents</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-right">
+        </div>
+    </div>
+</header>
+<!--  End Header -->
+<!--  Homepage  -->
+<main class="grid-container">
+    <section>
+        <picture>
+            <source media="(max-width: 768px)" srcset="css/images/living-room-1920x1080.jpg">
+            <source media="(min-width: 769px)" srcset="css/images/living-room-1200x400.jpg">
+            <img src="css/images/living-room-1200x400.jpg">
+        </picture>
+    </section>
+    <section>
+        <div id="shop-department-brand">
+            <ul>
+                <li><a class="showSingle department-show" href="javascript:void(0)" targets="1">Living Room</a></li>
+                <li><a class="showSingle" href="javascript:void(0)" targets="2">Dinging Room</a></li>
+                <li><a class="showSingle" href="javascript:void(0)" targets="3">Bedroom</a></li>
+                <li><a class="showSingle" href="javascript:void(0)" targets="4">Entertainment</a></li>
+                <li><a class="showSingle" href="javascript:void(0)" targets="5">Home Office</a></li>
+                <li><a class="showSingle" href="javascript:void(0)" targets="6">Accessories</a></li>
+            </ul>
+        </div>
+        <script>
+        $(function() {
+            $('.showSingle').click(function() {
+                $(".showSingle").removeClass("department-show");
+                $(this).addClass("department-show");
+                $('.targetDiv').hide();
+                $('#div' + $(this).attr('targets')).show();
+                if ($(window).width() > 767) {
+                    $('.boxright').addClass("animated slideInLeft");
+                    $('.boxleft').addClass("animated slideInRight");
+                } else {
+                    $('.boxright').removeClass("animated slideInLeft");
+                    $('.boxleft').removeClass("animated slideInRight");
+                }
+            });
+        });
+        </script>
+        <div id="shop-department-container">
+            <div id="div1" class="shop-department-box targetDiv">
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/living-room.inc"><img src="css/images/homelivingroom.jpg" width="720" height="415" alt="Living Room" /></a>
+                    </div>
+                </div>
+                <div class="shop-department-box-right boxright">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Living Room</span></p>
+                        <div class="shop-department-box-list">
+                            <ul class="" id="LivingRoom">
+                                <li><a href="/living-room/sofas/room-type.aspx" class="Anchor"><span class="Label">Sofas</span></a></li>
+                                <li><a href="/living-room/sectionals/room-type.aspx" class="Anchor"><span class="Label">Sectionals</span></a></li>
+                                <li><a href="/living-room/loveseats/room-type.aspx" class="Anchor"><span class="Label">Loveseats</span></a></li>
+                                <li><a href="/living-room/chaises/room-type.aspx" class="Anchor"><span class="Label">Chaises</span></a></li>
+                                <li><a href="/living-room/ottomans/room-type.aspx" class="Anchor"><span class="Label">Ottomans</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="div2" class="shop-department-box targetDiv">
+                <div class="shop-department-box-right boxleft">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Dining Room</span></p>
+                        <div class="shop-department-box-list">
+                            <li><a href="/dining-room/tables/room-type.aspx" class="Anchor"><span class="Label">Tables</span></a></li>
+                            <li><a href="/dining-room/chairs/room-type.aspx" class="Anchor"><span class="Label">Chairs</span></a></li>
+                            <li><a href="/dining-room/benches/room-type.aspx" class="Anchor"><span class="Label">Benches</span></a></li>
+                            <li><a href="/dining-room/stools/room-type.aspx" class="Anchor"><span class="Label">Stools</span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/dining-room.inc"><img src="css/images/homediningroom.jpg" width="720" height="415" alt="Dining Room" /></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="div3" class="shop-department-box targetDiv">
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/bedroom.inc"><img src="css/images/homebedroom.jpg" width="720" height="415" alt="Bedroom" /></a>
+                    </div>
+                </div>
+                <div class="shop-department-box-right boxright">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Bedroom</span></p>
+                        <div class="shop-department-box-list">
+                            <li><a href="/bedroom/beds/room-type.aspx" class="Anchor"><span class="Label">Beds</span></a></li>
+                            <li><a href="/bedroom/bedding/room-type.aspx" class="Anchor"><span class="Label">Bedding</span></a></li>
+                            <li><a href="/bedroom/chests-and-dressers/room-type.aspx" class="Anchor"><span class="Label">Chests and Dressers</span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="div4" class="shop-department-box targetDiv">
+                <div class="shop-department-box-right boxleft">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Entertainment</span></p>
+                        <div class="shop-department-box-list">
+                            <li><a href="/home-entertainment/tables/department-type.aspx"><span>Tables</span></a></li>
+                            <li><a href="/home-entertainment/entertainment-centers/department-type.aspx"><span>Entertainment Centers</span></a></li>
+                            <li><a href="/home-entertainment/cabinets/department-type.aspx"><span>Cabinets</span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/entertainment.inc"><img src="css/images/homeentertainment.jpg" width="720" height="415" alt="Entertainment" /></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="div5" class="shop-department-box targetDiv">
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/home-office.inc"><img src="css/images/homehomeoffice.jpg" width="720" height="415" alt="Home Office" /></a>
+                    </div>
+                </div>
+                <div class="shop-department-box-right boxright">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Home Office</span></p>
+                        <div class="shop-department-box-list">
+                            <li><a href="/home-office/home-office-sets/department-type.aspx" class="Anchor"><span class="Label">Home Office Sets</span></a></li>
+                            <li><a href="/home-office/bookcases/department-type.aspx" class="Anchor"><span class="Label">Bookcases</span></a></li>
+                            <li><a href="/home-office/desks/department-type.aspx" class="Anchor"><span class="Label">Desks</span></a></li>
+                            <li><a href="/home-office/chairs/department-type.aspx" class="Anchor"><span class="Label">Chairs</span></a></li>
+                            <li><a href="/home-office/cabinets/department-type.aspx" class="Anchor"><span class="Label">Cabinets</span></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="div6" class="shop-department-box targetDiv">
+                <div class="shop-department-box-right boxleft">
+                    <div class="shop-department-box-copy">
+                        <p><span class="department-heading-one">Shop</span></p>
+                        <p><span class="department-heading-two">Accessories</span></p>
+                        <div class="shop-department-box-list">
+                            <AttributeList id="Accessories" ListAttribute="Type" FilterAttribute="Department" FilterAttributeValue="Accessories" ItemType="item"></AttributeList>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-department-box-left">
+                    <div class="shop-department-box-pic">
+                        <a href="/accessories.inc"><img src="css/images/homeaccessories.jpg" width="720" height="415" alt="Accessories" /></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section>
+        <div id="banner-container">
+            <div class="banner-text">
+                <h2>Enjoy 12 months to pay on purchases using our credit card</h2>
+                <div class="button">
+                    <a href="/clearnace"><span>Click for Details</span></a>
+                </div>
+            </div>
+            <div class="banner-image hide-on-mobile">
+                <a href="/clearance.inc"><img src="css/images/financing.png" width="400" height="400" alt="Financing"></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="design">
+            <div class="design-container">
+                <img src="css/images/design-services.jpg" width="493" height="299" alt="" />
+                <a href="/design-service.inc">Design Services</a>
+            </div>
+            <div class="design-container">
+                <img src="css/images/featured-brands.jpg" width="493" height="299" alt="" />
+                <a href="/brands.inc"> Featured Brands</a>
+            </div>
+            <div class="design-container">
+                <img src="css/images/inside-store.jpg" width="493" height="299" alt="" />
+                <a href="/about-us.inc">Get To Know Us</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+</main>
+<!--  End Homepage  -->
+<!--  Footer  -->
+<footer class="grid-container">
+    <div class="social-media">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook fa-2x"><span class="hidden">Facebook</span></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter fa-2x"><span class="hidden">Twitter</span></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest fa-2x"><span class="hidden">Pinterest</span></i></a></li>
+            <li><a href="#"><i class="fa fa-houzz fa-2x"><span class="hidden">Houzz</span></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube fa-2x"><span class="hidden">YouTube</span></i></a></li>
+        </ul>
+    </div>
+    <div id="footer-container">
+        <div id="footer-left">
+        </div>
+        <div id="footer-middle">
+        </div>
+        <div id="footer-right">
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="copyright-container">
+        <div class="copyright">
+            <p>&copy; <script>
+                document.write(new Date().getFullYear())
+                </script> Eldorado | <a href="/visual-site-map.inc">Site Map</a></p>
+        </div>
+    </div>
+    <div id="scroll-div">
+        <a href="javascript:void(0)" class="scroll-to-top"><i class="fa fa-chevron-circle-up fa-3x"><span class="hidden">Back to Top</span></i></a>
+    </div>
+</footer>
+<!--  End Footer  -->
+<script>
+$(document).ready(function() {
+    $('#top-nav-icon').click(function() {
+        $(this).toggleClass('open');
+        $('.top-header-list').toggle('slow');
+    });
+
+    $('#nav-icon').click(function() {
+        $(this).toggleClass('open');
+        $('.header-list').toggle('slow');
+    });
+
+    $("#slideshow").owlCarousel({
+        loop: true,
+        autoplay: true,
+        nav: true,
+        items: 1,
+        nav: false,
+        dots: false
+    });
+
+    //Check to see if the window is top if not then display button
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('#main-nav').css({ 'bottom': '0', 'top': 'unset' });
+            $('.scroll-to-top').fadeIn();
+        } else {
+            $('#main-nav').css({ 'top': '0', 'bottom': 'unset' });
+            $('.scroll-to-top').fadeOut();
+        }
+    });
+
+    //Click event to scroll to top
+    $('.scroll-to-top').click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+});
+</script>
